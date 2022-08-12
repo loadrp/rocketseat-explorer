@@ -1,0 +1,115 @@
+:root{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(107.56deg, #232d8a 0%, #28859c 100%);
+    font-family: 'DM Sans', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+
+/* SCREEN 1 */
+
+.screen1 {
+    background: #FFF;
+    width: min(42.8rem, 90%);
+    border-radius: .6rem;
+    align-items: center;
+    padding: 4.8rem 6.4rem 6.4rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -12rem;
+    text-align: center;
+}
+
+.screen1 h1{
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.6rem;
+    color: #34355B;
+}
+
+.screen1 p{
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight:400;
+    color: #34355B;
+    opacity: 0.8;
+;
+}
+
+.screen1 button, input{
+    font-family: 'DM Sans', sans-serif;
+    font-weight:600;
+    border: none;
+    padding: 1.6rem;
+}
+
+
+/*SCREEN 2*/
+
+.screen2 {
+    background: #FFF;
+    width: min(42.8rem, 90%);
+    border-radius: .6rem;
+    align-items: center;
+    padding: 4.8rem 6.4rem 6.4rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -12rem;
+    text-align: center;
+}
+
+.screen2 h2{
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.6rem;
+    color: #18192b;
+}
+
+.screen2 p{
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight:400;
+    color: #18192b;
+    opacity: 0.8;
+;
+}
+
+.screen2 button, input{
+    font-family: 'DM Sans', sans-serif;
+    font-weight:600;
+    border: none;
+    padding: 1.6rem;
+}
+
+
+input{
+    background-color: #DCE2E9;
+    width: 6rem;
+    border-radius: 4px 0px 0px 4px;
+}
+
+button{
+    background: #0e083b;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 0px 4px 4px 0px;
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
