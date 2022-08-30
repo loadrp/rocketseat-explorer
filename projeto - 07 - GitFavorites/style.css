@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+   
+}
+
+body {
+    background: #0d262c;
+    font-size: 1.8rem;
+    color: #E1E1E6;
+
+}
+
+body * {
+    font-family: 'Poppins' , sans-serif;
+}
+
+.menu{
+    display: flex;
+    
+}
+
+#app{
+    width: 85%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.sr-only{
+    margin: -1px;
+    overflow: hidden;
+    padding:0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+header{
+    margin-top: 115px;
+    
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.search-container{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.search-container button{
+    color: #E1E3E6;
+    background: #065E7C;
+    width: 12.0rem;
+    height: 3.0rem;
+    font-weight: bold;
+    font-size: 1.0rem;
+    border-radius:0 0.5rem 0.5rem 0;
+    cursor: pointer;
+}
+
+.search-container button:hover{
+    background: #0c6e8f;
+    transition: 500ms;
+}
+
+.search-container input {
+    background: #06181C;
+    color: #E1E3E6;
+    font-size: 1.3rem;
+    border: none;
+    width: 25rem;
+    height: 3.0rem;
+    text-align: center;
+    padding: 0.4rem;
+    border-radius:0.5rem 0 0 0.5rem;
+    margin-left: 0.5rem;
+    outline: none;
+    transition: 500ms;
+}
+
+
+.search h1 i{
+    margin-left: 15px;
+    align-items:center;
+    position: absolute;
+    top: 35%;
+
+
+}
+
+.search-container{
+    font-size: 1.6rem;
+}
+
+table{
+    width: 100%;
+    border-colapse: colapse;
+    gap: 10rem;
+    font-size: 1.4rem;
+    margin-top: 8.7rem;
+    border: 1px #4A808C;
+    box-shadow: 0px 2rem 20rem 0rem #4A808C;
+    border-radius: 0.9rem;
+    
+    
+}
+
+table th{
+    background: #092D38;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 7px 7px 0 0;
+
+}
+
+table tr:nth-child(even){
+    background: rgba(6, 22, 27, 0.5);
+}
+table tr:nth-child(odd){
+    background: #06181C;
+}
+
+td {
+    padding: 1rem;
+    text-align: left;
+
+}
+
+td.username{
+    display:flex;
+    gap: 1rem;
+}
+
+td.remove, button.remove{
+    color: #F75A68;
+    font-weight:bold;
+    background: none;
+    border: none;
+}
+td img{
+    width: 50px;
+    border: 2px solid #fefefe;
+    border-radius: 5.0rem;
+}
+
+td p{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #E1E1E6;
+}
+
+td a{
+    font-size: 1.0rem;
+    color: #E1E1E6;
+    text-decoration: none;
+}
